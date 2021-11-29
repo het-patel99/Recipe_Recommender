@@ -8,7 +8,7 @@ def test_restaurant_data_punjabi():
     assert "Punjabi Dhaba" in restaurant_data("Punjabi", "North Indian", "Punjabi Dhaba", "")
     
 def test_restaurant_data_indian():
-    assert "Gujarati" in restaurant_data("Indian", "Gujarati", "Indian", "")
+    assert "Indian" in restaurant_data("Indian", "Gujarati", "Indian", "")
     
 def test_location_data():
     assert "Raleigh" in location_data("Punjabi", "North Indian", "Raleigh", "")
