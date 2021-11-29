@@ -10,7 +10,7 @@ def restaurant_data(r1_cuisine, r2_cuisine, r2_restaurant, r):
             r = r + str(r2_restaurant) + "% "
         elif r1_cuisine == 'Indian' and r2_cuisine in ['South Indian', 'Gujarati', 'North Indian']:
             r = r + str(r2_restaurant) + "% "
-        elif r2['Cuisine'] == 'South Indian':
+        elif r2_cuisine == 'South Indian':
             r = r + str(r2_restaurant) + "% "
         return r
         
@@ -31,7 +31,7 @@ def location_data(r1_cuisine, r2_cuisine, r2_location, l):
             l = l+ str(r2_location) + "% "
         elif r1_cuisine == 'Indian' and r2_cuisine in ['South Indian', 'Gujarati', 'North Indian']:
             l = l+ str(r2_location) + "% "  
-        elif r2['Cuisine'] == 'South Indian':
+        elif r2_cuisine == 'South Indian':
             l = l+ str(r2_location) + "% "
         return l
 
